@@ -15,6 +15,7 @@ h1 {
   padding-bottom: 5px;
 }
 
+
 .main-container {
   display: flex;
   justify-content: space-around;
@@ -67,6 +68,48 @@ nav {
 }
 
 
+/* Square section */
+
+h2 {
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  font-size: 36px;
+}
+
+.square-picture {
+  padding: 20px 0 150px 0;
+}
+
+.square-info {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  margin-left: 35px;
+}
+
+p {
+  position: absolute;
+  bottom: -75px;
+  color: #1f2937;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+
+
+/* Review section */
+
 .container-review {
   display: flex;
   justify-content: center;
@@ -78,6 +121,9 @@ nav {
   font-style: italic;
   color: #1f2937;
 }
+
+
+
 
 
 
