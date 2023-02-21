@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  color: white;
+  background-color: white;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 25px 100px 0 100px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.subtext-main {
+  padding-bottom: 15px;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  border-radius: 5px;
+  width: 85px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.placeholder {
+  width: 450px;
+  height: 200px;
+  background-color: grey;
+}
+
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  color: red;
+  justify-content: flex-start;
+}
+
+.nav-link {
+  padding-right: 25px;
+}
+
+
+/* Square section */
+
+h2 {
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  font-size: 36px;
+}
+
+.square-picture {
+  padding: 20px 0 150px 0;
+}
+
+.square-info {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  margin-left: 35px;
+}
+
+p {
+  position: absolute;
+  bottom: -75px;
+  color: #1f2937;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+
+
+/* Review section */
+
+.container-review {
+  display: flex;
+  justify-content: center;
+  background-color: #e5e7eb;
+}
+
+.review-text {
+  font-size: 30px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+
+
+
+
+
+
+
+
+.pop-up {
+  display: flex;
+  justify-content: center;
+  padding: 50px 50px;
+}
+
+.container-pop-up {
+  background-color: #3882f6;
+  height: 70px;
+  border-radius: 5px;
+  padding: 25px 100px 5px 100px;
+}
+
+.pop-up-text {
+  display: flex;
+  justify-content: flex-start;
+}
+
+
+
+footer {
+  background-color: #1f2937;
+  padding: 25px 25px;
+  display: flex;
+  justify-content: center;
+}
